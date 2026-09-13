@@ -7,3 +7,28 @@ body{
     background:#EBD96B;
     
 }
+#menu1 img{
+	width:333px;
+	height:420px;
+	float:left;
+	margin:5px 25px 0px 35px;
+						
+}
+#menu1 h5{
+	font-size:19px;
+	margin:440px 0px 7px 40px ;
+						
+}
+#menu1 p{
+	margin:0px 0px 0px 40px ;
+	color:#7F7F7F;
+}
+
+.menu1 img{
+    width:333px;
+	height:420px;
+	float:left;
+	margin:5px 40px 0px 27px;
+
+
+}
