@@ -303,21 +303,25 @@ body {
 .darea1 img {
 	padding: 60px 0 0 0;
 }
+.darea2  {
+	padding: 60px 0px 30px 0;
+	
+}
 
 .darea2 img {
-	padding: 60px 25px 0 0;
+	/*padding: 60px 25px 0 0;*/
 	width: 100%;
 }
 
 .darea2 h5 {
 	font-size: 22px;
-	margin: 40px 0px 2px 0px;
+	/*margin: 40px 0px 2px 0px;*/
 
 }
 
 .darea2 p {
 	font-size: 18px;
-	margin: 5px 0px 2px 0px;
+	/*margin: 5px 0px 2px 0px;*/
 
 	color: #7F7F7F;
 }
@@ -339,9 +343,13 @@ body {
 
 	color: #7F7F7F;
 }*/
+/* .carea{
+	padding:45px 0px 5px 0;
+} */
 
 #carea1 {
 	background: white;
+	padding:55px 0px 5px 0;
 
 
 }
@@ -479,16 +487,16 @@ body {
 }
 
 .box2 h4 {
-	margin: 57px 0px 0px 2px;
+	 margin: 57px 0px 0px 2px;
 	color: #D9D9D9
 }
 
 .para1 {
 	margin: 14px 0px 0px 2px;
 	color: #7F7F7F;
-}
+} 
 
-.para2 {
+/*.para2 {
 	margin: 14px 0px 0px 2px;
 	color: #7F7F7F;
 }
@@ -503,7 +511,7 @@ body {
 	color: #7F7F7F;
 }
 
-/*.box3 h4 {
+.box3 h4 {
 	margin: 57px 0px 0px 2px;
 	color: #D9D9D9
 }
