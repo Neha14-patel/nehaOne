@@ -126,16 +126,16 @@ body {
 	padding: 30px;
 }
 
-.brandarea {
-	padding: 20px 0;
+.brandarea{
+	padding: 25px 0; 
 	background: #EBD96B;
 }
 .brandarea img{
-	margin:2px ;
+	margin:0px 1px;
+	/* border-color: yellow;  */
 	width:100%;
-	border-color: black;
+	height:65px; 
 }
-
 .nav-link {
 	color: red;
 
