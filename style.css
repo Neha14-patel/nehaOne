@@ -111,9 +111,7 @@ body {
 	background: black;
 	text-decoration: none;
 	padding: 5px 10px;
-
 }
-
 #top2 {
 	background: #F4F6F5;
 	margin: 20px 50px 70px 0px;
@@ -124,7 +122,6 @@ body {
 	/* height: 480px; */
 	padding: 30px;
 }
-
 .brandarea{
 	padding: 25px 0; 
 	background: #EBD96B;
@@ -135,31 +132,30 @@ body {
 	width:100%;
 	height:65px;
 }
+@media screen and (max-width:1000px){
+	.brandarea img{
+		height:55px;
+		width:100%;
+	}
+}
 .nav-link {
 	color: red;
-
 }
-
 .nav-link:hover {
 	color: green;
 }
-
 .active {
 	color: blue !important;
 }
-
 .xyz {
 	background: pink;
 }
-
 .menu {
 	background: white;
 }
-
 .menu img {
 	padding: 65px 0 0 19px;
 }
-
 .menu1 {
 	background: white;
 	margin:20px;
