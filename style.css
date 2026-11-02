@@ -134,8 +134,9 @@ body {
 }
 @media screen and (max-width:1000px){
 	.brandarea img{
-		height:65px;
+		height:55px; 
 		width:100%;
+		/* margin:0px 1px; */
 	}
 }
 .nav-link {
@@ -292,72 +293,55 @@ body {
 .darea2 p {
 	font-size: 18px;
 	/*margin: 5px 0px 2px 0px;*/
-
 	color: #7F7F7F;
 }
-
-.carea {
+/* .carea {
 	background: white;
-}
-
-
-#carea1 {
+} */
+#carea {
 	background: white;
-	padding: 55px 0px 5px 0; 
-
-
-}
-
+	/* padding: 55px 0px 5px 0;   */
+} 
 #carea1 h1 {
 	font-size: 30px;
 	/* margin: 100px 0px 0px 100px; */
-
 }
-
 #carea1 p {
-
 	font-size: 27px;
 	/*margin: 25px 0px 0px 100px;*/
 	color: #7F7F7F;
-
 }
-
-.r5 img {
-	margin: 25px 0px 0px 100px;
-
+.ggl-apple img {
+	margin: 4px 5px ;
 }
-
-.r6 img {
-	margin: 25px 0px 0px 6px;
+@media  screen and (max-width:1000px){
+	.ggl-apple img {
+	/* margin: 25px 5px ; */
+	width:100%;
 }
-
+}
 #carea2 img {
-	padding: 35px 60px 30 90px;
+	padding: 75px 60px 30 90px;
 	/*float:left;*/
+	/* width:100%; */
 }
-
 .abc h2 {
 	font-size: 41px;
 	color: white;
-
 }
-
 #footerarea {
 	background: #E5C643;
 	text-align: center;
 	padding: 20px 0 50px 0;
 }
-
 .abc1 h2 {
 	font-size: 31px;
 	color: white;
 }
-
 .abc2 p {
 	font-size: 21px;
 	color: white;
 }
-
 .add {
 	font-size: 17px;
 	margin: 30px 0px 60px 50px;
@@ -366,31 +350,23 @@ body {
 	position: relative;
 	/*float: left;*/
 }
-
 .send {
 	font-size: 16px;
 	margin: 36px 10px 10px 10px;
 	padding: 6px 5px 6px 4px;
 	background: black;
 	color: white;
-
 	position: absolute;
 	top: -30px;
 	left: 199px;
-
 }
-
 #bottomarea {
 	background: black;
-
 }
-
 .box1 {
 	background: black;
 	float: left;
 }
-
-
 .box1 h2 {
 	color: white;
 	margin: 60px 0px 0px 50px;
@@ -406,20 +382,14 @@ body {
 	width: 39px;
 	/* height: 39px; */
 }
-
-
 .box2 {
-	/*width: 230px;
-	height: 300px;*/
 	background: black;
 	float: left;
 }
-
 .box2 h4 {
 	margin: 57px 0px 0px 2px;
 	color: #D9D9D9
 }
-
 .para1 {
 	margin: 14px 0px 0px 2px;
 	color: #7F7F7F;
