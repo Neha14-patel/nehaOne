@@ -359,22 +359,26 @@ body {
 }
 .box1 {
 	background: black;
-	float: left;
+	/* float: left; */
 }
 .box1 h2 {
 	color: white;
-	margin: 60px 0px 0px 50px;
+	margin: 50px 0px 0px 0px; 
+	align-content: center;
 }
 
 .box1 p {
 	color: #7F7F7F;
-	margin: 20px 0px 0px 50px;
+	 margin: 20px 0px 0px 0px;  
 }
 
 .photo1 img {
-	margin: 17px 0px 0px 50px;
-	width: 39px;
+	/* margin: 15px 0px 0px 30px;  */
+	width: 35px;
 	/* height: 39px; */
+	/* align-content: center; */
+	margin:15px 5px 0px 2px;
+	/* justify-content: center; */
 }
 @media screen and(max-width:1000px) {
 	.photo img{
@@ -384,10 +388,10 @@ body {
 }
 .box2 {
 	background: black;
-	float: left;
+	/* float: left; */
 }
 .box2 h4 {
-	margin: 57px 0px 0px 2px;
+	margin: 50px 0px 0px 2px;
 	color: #D9D9D9
 }
 .para1 {
