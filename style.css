@@ -4,30 +4,33 @@ body {
 }
 
 .fashion_box {
-	/* float: left; */
+	float: left; 
 	margin: 20px 0px 20px 48px;
 }
 
 .fashion_box img {
-	margin: 5px;
-	/* float: left; */
-	/* height: 35px; */
+	margin: 5px; 
+	float: left; 
+	height: 35px; 
 	width: 100%;
 }
-
+@media screen and (max-width:1000px){
+	.fashion_box img{
+		width:100%;
+	}
+}
 .fashion_list {
-	/* float: right; */
+	float: right; 
 	margin: 10px;
 }
-
 .fashion_list ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 .fashion_list ul li {
-	/* float: left; */
-	/* padding:10px 15px 50px 2px; */
+	float: left; 
+	padding:0px 15px 10px 2px; 
 	margin: 20px 15px 20px 0px;
 }
 .fashion_list ul li a:link,
@@ -126,7 +129,11 @@ body {
 .brandarea {
 	padding: 20px 0;
 	background: #EBD96B;
-
+}
+.brandarea img{
+	margin:2px ;
+	width:100%;
+	border-color: black;
 }
 
 .nav-link {
