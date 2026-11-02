@@ -4,13 +4,13 @@ body {
 }
 
 .fashion_box {
-	float: left;
+	/* float: left; */
 	margin: 20px 0px 20px 48px;
 }
 
 .fashion_box img {
 	margin: 5px;
-	float: left;
+	/* float: left; */
 	/* height: 35px; */
 	width: 100%;
 }
@@ -18,8 +18,6 @@ body {
 .fashion_list {
 	/* float: right; */
 	margin: 10px;
-
-
 }
 
 .fashion_list ul {
@@ -27,14 +25,11 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 .fashion_list ul li {
-	float: left;
-	/*padding:10px 15px 50px 2px;*/
-	margin: 20px 45px 20px 0px;
-
+	/* float: left; */
+	/* padding:10px 15px 50px 2px; */
+	margin: 20px 15px 20px 0px;
 }
-
 .fashion_list ul li a:link,
 .fashion_list ul li a:visited {
 	color: black;
