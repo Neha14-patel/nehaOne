@@ -314,12 +314,12 @@ body {
 .ggl-apple img {
 	margin: 4px 5px ;
 }
-@media  screen and (max-width:1000px){
+/* @media  screen and (max-width:1000px){
 	.ggl-apple img {
-	/* margin: 25px 5px ; */
+	margin: 25px 5px ; 
 	width:100%;
-}
-}
+} */
+
 #carea2 img {
 	padding: 75px 60px 30 90px;
 	/*float:left;*/
