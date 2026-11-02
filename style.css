@@ -386,12 +386,19 @@ body {
 	margin:3px 2px;
 	}
 }
+@media screen and (max-width:1000px){
+	.box1, .box2{
+		align-content: center;
+	}
+}
 .box2 {
 	background: black;
 	/* float: left; */
+	align-content: center;
+
 }
 .box2 h4 {
-	margin: 50px 0px 0px 2px;
+	margin: 50px 0px 0px 2px; 
 	color: #D9D9D9
 }
 .para1 {
