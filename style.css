@@ -134,9 +134,9 @@ body {
 }
 @media screen and (max-width:1000px){
 	.brandarea img{
-		height:55px; 
+		/* height:55px;  */
 		width:100%;
-		/* margin:0px 1px; */
+		 margin:0px 1px; 
 	}
 }
 .nav-link {
@@ -162,7 +162,7 @@ body {
 	margin:20px;
 }
 @media screen and (max-width:1000px) {
-	.menu1{
+	.menu1, .darea1{
 		margin:10px;
 	}
 }
