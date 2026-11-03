@@ -134,9 +134,10 @@ body {
 }
 @media screen and (max-width:1000px){
 	.brandarea img{
-		/* height:55px;  */
+		height:55px;   
 		width:100%;
-		 margin:0px 1px; 
+		 /* margin:0px 1px;  */
+		 justify-content: flex-start;
 	}
 }
 .nav-link {
