@@ -134,7 +134,27 @@ body {
 	width:auto;
 	height:65px;
 	object-fit:contain;
+	display:block;
 }
+	.brandarea .row{
+		/* height:35px;   
+		width:100%;
+		margin:0px 1px;  
+		 justify-content: flex-start; */
+		 display:flex;
+		 flex-wrap:wrap;
+		 justify-content:center;
+		 align-items:center;
+		 gap:35px;
+	}
+
+	.brandarea .col{
+		flex:0 0 auto; 
+		text-align:center;
+		width:auto;
+
+	}
+
 @media screen and (max-width:1000px){
 	.brandarea .row{
 		/* height:35px;   
@@ -146,7 +166,7 @@ body {
 		 justify-content:center;
 	}
 	.brandarea .col{
-		/* flex:0 0 33.33%; */
+		flex:0 0 auto; 
 		text-align:center;
 
 	}
