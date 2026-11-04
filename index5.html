@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+    
+<body >
+    <button onclick="fun()">Jamshedpur</button>
+    <button onclick="myfun()">Ranchi</button>
+    <button onclick="yrfun()">Bokaro</button>
+
+
+    <div id="jsr" style="display:none">
+        Jamshedpur, also known as Tatanagar, is the largest industrial city in Jharkhand, India, famous as the "Steel
+        City of India".
+    </div>
+    <div id="ranchi" style="display:none">
+        Ranchi is the capital city of the Indian state of Jharkhand. Known as the "City of Waterfalls", it sits on the
+        Chota Nagpur Plateau at an altitude of about 650 meters (2,140 feet), giving it a relatively moderate climate
+        compared to the surrounding plains.
+    </div>
+    <div id="bokaro" style="display:none">
+        Bokaro, officially known as Bokaro Steel City, is an industrial planned city in Jharkhand, India. With an
+        estimated metropolitan population of 1.1 million and 183 square kilometres of area, it is the fourth largest
+        city in the state.
+    </div>
+
+    <script>
+
+        function fun() {
+            document.getElementById("jsr").style.display = "block";
+            document.getElementById("ranchi").style.display = "none";
+            document.getElementById("bokaro").style.display = "none";
+        }
+        function myfun() {
+            document.getElementById("ranchi").style.display = "block";
+            document.getElementById("bokaro").style.display = "none";
+            document.getElementById("jsr").style.display = "none";
+
+        }
+        function yrfun() {
+            document.getElementById("bokaro").style.display = "block";
+            document.getElementById("ranchi").style.display = "none";
+            document.getElementById("jsr").style.display = "none";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
