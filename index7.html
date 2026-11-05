@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <!-- <button onclick="fun()">Hide</button> -->
+
+
+    <div id="jsr">
+        Jamshedpur, also known as Tatanagar, is the largest industrial city in Jharkhand, India, famous as the "Steel
+    </div>
+    <div id="jsr1" style="display:none;">
+        City of India".Purbi Singhbhum district is situated at the southeast corner of Jharkhand. It has been formed
+        after isolating nine block from old Singhbhum on 16th January 1990. From the industrial growth and mining
+        quarrying point of view, this district has a leading position in Jharkhand.
+    </div>
+
+    <script>
+        function fun() {
+            if (document.getElementById("jsr1").style.display === "none") {
+               
+                document.getElementById("jsr1").style.display = "block";
+                // document.getElementById("jsr1").style.display = "none";
+                document.getElementById("btn").innerHTML = "view less";
+
+            }
+            else {
+                // document.getElementById("jsr").style.display = "block";
+                document.getElementById("jsr1").style.display = "none";
+                document.getElementById("btn").innerHTML = "view more";
+            }
+        }
+
+    </script>
+    <button onclick="fun()" id="btn">view more</button>
+
+</body>
+
+</html>
